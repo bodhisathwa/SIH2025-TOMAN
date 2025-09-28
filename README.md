@@ -1,8 +1,7 @@
 # 🌿 Ojas Health Aid (aka MedTrack on WhatsApp)
 > **AI-driven multilingual public health companion for preventive care, disease awareness, and vaccination guidance.**
 
-[WhatsApp Image 2025-09-27 at 20 13 24_408485b0](https://github.com/user-attachments/assets/78e4ee74-2b98-41cd-a3a5-4b5dd78e05c7)
-(docs/gallery/hero-banner.png)
+# <img src="docs/gallery/ojas-logo.png" width="32" height="32"> Ojas Health Aid (aka MedTrack on WhatsApp)
 
 ---
 
@@ -151,3 +150,4 @@ flowchart TD
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
