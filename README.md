@@ -103,19 +103,19 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## 🖼️ Gallery
 <div>
-  <img src="Ojas Prototype/1.jpg" width="500" height="300">
-  <img src="Ojas Prototype/2.jpg" width="500" height="300">
-  <img src="Ojas Prototype/3.jpg" width="500" height="300">
-  <img src="Ojas Prototype/4.jpg" width="500" height="300">
-  <img src="Ojas Prototype/5.jpg" width="500" height="300">
-  <img src="Ojas Prototype/6.jpg" width="500" height="300">
-  <img src="Ojas Prototype/7.jpg" width="500" height="300">
-  <img src="Ojas Prototype/8.jpg" width="500" height="300">
-  <img src="Ojas Prototype/9.jpg" width="500" height="300">
-  <img src="Ojas Prototype/10.jpg" width="500" height="300">
-  <img src="Ojas Prototype/11.jpg" width="500" height="300">
-  <img src="Ojas Prototype/12.jpg" width="500" height="300">
-  <img src="Ojas Prototype/13.jpg" width="500" height="300">
+  <img src="Ojas Prototype/1.jpg" width="300" height="300">
+  <img src="Ojas Prototype/2.jpg" width="300" height="300">
+  <img src="Ojas Prototype/3.jpg" width="300" height="300">
+  <img src="Ojas Prototype/4.jpg" width="300" height="300">
+  <img src="Ojas Prototype/5.jpg" width="300" height="300">
+  <img src="Ojas Prototype/6.jpg" width="300" height="300">
+  <img src="Ojas Prototype/7.jpg" width="300" height="300">
+  <img src="Ojas Prototype/8.jpg" width="300" height="300">
+  <img src="Ojas Prototype/9.jpg" width="300" height="300">
+  <img src="Ojas Prototype/10.jpg" width="300" height="300">
+  <img src="Ojas Prototype/11.jpg" width="300" height="300">
+  <img src="Ojas Prototype/12.jpg" width="300" height="300">
+  <img src="Ojas Prototype/13.jpg" width="300" height="300">
 </div>
 
 
@@ -144,6 +144,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
 
 
 
