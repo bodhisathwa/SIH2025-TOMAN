@@ -1,4 +1,4 @@
-# # <img src="OJAS Logo.png" width="32" height="32"> Ojas Health Aid (aka MedTrack on WhatsApp)  
+# # <img src="Ojas Prototype/OJAS Logo.png" width="32" height="32"> Ojas Health Aid (aka MedTrack on WhatsApp)  
 
 > **AI-driven multilingual public health companion for preventive care, disease awareness, and vaccination guidance.*
 
@@ -96,16 +96,8 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## 🖼️ Gallery
 
-| Preview | Description |
-|---------|-------------|
-| Landing | Landing page highlighting key benefits and call-to-action. |
-| ChatUI | Multilingual chat interface with symptom intake prompts. |
-| Emergency | Emergency workflow showcasing nearby facilities and contacts. |
-| Dashboard | Awareness metrics and community impact dashboard. |
-
-*(Replace placeholders with actual assets stored under docs/gallery/.)*
-
----
+<img src="Ojas Prototype/1.jpg" width="500" height="300">
+<img src="Ojas Prototype/2.jpg" width="500" height="300">
 
 ## 🔗 Useful Links
 
@@ -132,6 +124,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
 
 
 
