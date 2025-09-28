@@ -69,7 +69,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## 🏗️ Architecture Snapshot
 
-<img src="Ojas Prototype/Project Flow Architecture.jpg" width="1000" height="500">
+<img src="Ojas Prototype/Project Flow Architecture.png" width="1000" height="500">
 
 ## 🔍 Core Components
 
@@ -103,22 +103,23 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## 🖼️ Gallery
 <div>
-  <img src="Ojas Prototype/1.jpg" width="400" height="300">
-  <img src="Ojas Prototype/2.jpg" width="400" height="300">
-  <img src="Ojas Prototype/3.jpg" width="400" height="300">
-  <img src="Ojas Prototype/4.jpg" width="400" height="300">
-  <!-- <img src="Ojas Prototype/5.jpg" width="400" height="300"> -->
-  <img src="Ojas Prototype/6.jpg" width="400" height="300">
-  <!-- <img src="Ojas Prototype/7.jpg" width="400" height="300">
-  <img src="Ojas Prototype/8.jpg" width="400" height="300">
-  <img src="Ojas Prototype/9.jpg" width="400" height="300"> -->
-  <img src="Ojas Prototype/10.jpg" width="400" height="300">
-  <img src="Ojas Prototype/11.jpg" width="400" height="300">
-  <img src="Ojas Prototype/12.jpg" width="400" height="300">
-  <img src="Ojas Prototype/13.jpg" width="400" height="300">
-  <img src="Ojas Prototype/14.jpg" width="500" height="300">
-  <img src="Ojas Prototype/15.jpg" width="500" height="300">
-  <img src="Ojas Prototype/16.jpg" width="500" height="300">
+  <img src="Ojas Prototype/1.png" width="400" height="300">
+  <img src="Ojas Prototype/2.png" width="400" height="300">
+  <img src="Ojas Prototype/3.png" width="400" height="300">
+  <img src="Ojas Prototype/4.png" width="400" height="300">
+  <img src="Ojas Prototype/5.png" width="400" height="300">
+  <img src="Ojas Prototype/6.png" width="400" height="300">
+  <img src="Ojas Prototype/7.png" width="400" height="300">
+  <img src="Ojas Prototype/8.png" width="400" height="300">
+  <img src="Ojas Prototype/9.png" width="400" height="300">
+  <img src="Ojas Prototype/10.png" width="400" height="300">
+  <img src="Ojas Prototype/11.png" width="400" height="300">
+  <img src="Ojas Prototype/12.png" width="400" height="300">
+  <img src="Ojas Prototype/13.png" width="400" height="300">
+  <img src="Ojas Prototype/14.png" width="500" height="300">
+  <img src="Ojas Prototype/15.png" width="500" height="300">
+  <img src="Ojas Prototype/16.png" width="500" height="300">
+   <img src="Ojas Prototype/17.png" width="500" height="300"> 
 </div>
 
 
@@ -137,6 +138,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
 
 
 
