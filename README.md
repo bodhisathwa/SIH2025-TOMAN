@@ -107,27 +107,20 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
   <img src="Ojas Prototype/2.jpg" width="400" height="300">
   <img src="Ojas Prototype/3.jpg" width="400" height="300">
   <img src="Ojas Prototype/4.jpg" width="400" height="300">
-  <img src="Ojas Prototype/5.jpg" width="400" height="300">
+  <!-- <img src="Ojas Prototype/5.jpg" width="400" height="300"> -->
   <img src="Ojas Prototype/6.jpg" width="400" height="300">
-  <img src="Ojas Prototype/7.jpg" width="400" height="300">
+  <!-- <img src="Ojas Prototype/7.jpg" width="400" height="300">
   <img src="Ojas Prototype/8.jpg" width="400" height="300">
-  <img src="Ojas Prototype/9.jpg" width="400" height="300">
+  <img src="Ojas Prototype/9.jpg" width="400" height="300"> -->
   <img src="Ojas Prototype/10.jpg" width="400" height="300">
   <img src="Ojas Prototype/11.jpg" width="400" height="300">
   <img src="Ojas Prototype/12.jpg" width="400" height="300">
   <img src="Ojas Prototype/13.jpg" width="400" height="300">
+  <img src="Ojas Prototype/14.jpg" width="500" height="300">
+  <img src="Ojas Prototype/15.jpg" width="500" height="300">
+  <img src="Ojas Prototype/16.jpg" width="500" height="300">
 </div>
 
-
-## 🔗 Useful Links
-
-- 🌐 **Live Demo / Deployment**: TBD – add cloud URL or WhatsApp entry point
-- 🎥 **Product Walkthrough**: TBD – link to demo video
-- 📄 **Architecture & Workflows**: design.md
-- 📋 **Project Tracker**: TBD – Notion/Jira/Trello board
-- 📣 **Community Awareness Kit**: TBD – content repository link
-
----
 
 ## 🎯 Expected Outcomes
 
@@ -144,6 +137,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
 
 
 
