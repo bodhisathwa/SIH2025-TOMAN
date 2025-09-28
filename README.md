@@ -95,9 +95,11 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 ---
 
 ## 🖼️ Gallery
-
-<img src="Ojas Prototype/1.jpg" width="500" height="300">
+<div>
+  <img src="Ojas Prototype/1.jpg" width="500" height="300">
 <img src="Ojas Prototype/2.jpg" width="500" height="300">
+</div>
+
 
 ## 🔗 Useful Links
 
@@ -124,6 +126,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
 
 
 
