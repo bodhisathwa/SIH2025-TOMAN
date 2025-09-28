@@ -68,24 +68,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## 🏗️ Architecture Snapshot
 
-```mermaid
-flowchart TD
-    A[User Channels: WhatsApp/SMS/Web] --> B[AIRouter]
-    B --> C{Health Query?}
-    C -->|Yes| D[Health Intake Engine]
-    D --> E[Gemini Full Model + Web Search]
-    C -->|No| F[Gemini Lite Model]
-    E --> G[Safety & Compliance Layer]
-    F --> G
-    G --> H[Response Formatter + Sources]
-    H --> I[Chat UI / Messaging Channel]
-    B --> J[Memory Store + Profile Context]
-    J --> B
-    E --> K[Government Health APIs]
-    G --> L[Awareness Metrics Dashboard]
-```
-
----
+<img src="OJAS Prototype/Process Flow Architecture.jpg" width="32" height="32">
 
 ## 🔍 Core Components
 
@@ -148,6 +131,7 @@ flowchart TD
 - Automate vaccination reminders and appointment scheduling.
 - Integrate offline-first data capture for low-connectivity regions.
 - Add specialist referral network and continuous medical content updates.
+
 
 
 
