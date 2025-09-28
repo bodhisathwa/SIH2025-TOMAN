@@ -1,52 +1,79 @@
-﻿# SIH2025-TOMAN
+Ojas Health Aid (MedTrack)
+# 🌿 Ojas Health Aid (aka MedTrack on WhatsApp)
+> **AI-driven multilingual public health companion for preventive care, disease awareness, and vaccination guidance.**
 
-🌿 Ojas Health Aid (MedTrack on WhatsApp)
-AI-driven multilingual public health companion for preventive care, disease awareness, and vaccination guidance.
+![Ojas Hero Banner](docs/gallery/hero-banner.png)
 
-Ojas Hero Banner
+---
 
-🧾 Brief Overview
-Ojas Health Aid is an AI-powered chatbot tailored for rural and semi-urban communities. It delivers safe, empathetic, and multilingual counseling on preventive healthcare, emerging outbreaks, vaccination schedules, and lifestyle awareness. The platform integrates with government health systems to surface real-time alerts while nurturing community health literacy across WhatsApp, SMS, and web channels.
+## 🧾 Brief Overview
 
-🤔 Why Ojas / MedTrack?
-🌍 Community-Centric – Designed for India’s linguistic and cultural diversity.
-⚕️ Safety-First Guidance – Encourages professional medical care, never self-diagnosis.
-📡 Real-Time Intelligence – Syncs with government datasets for outbreak and vaccination updates.
-📈 Impact-Driven Goals – Targets 80% query accuracy and 20% awareness growth in key communities.
-✨ Key Features
-| Icon | Capability | Description | |------|------------|-------------| | 🗣️ | Multilingual Conversations | Converses across major Indian languages with empathetic tone. | | 🩺 | Preventive Health Guidance | Shares symptom education, vaccine reminders, and lifestyle tips. | | 🧭 | Smart Intake & Triage | Progressive questioning to assess severity and recommend next steps. | | 🚨 | Emergency Protocols | Detects critical symptoms and suggests nearby emergency services. | | 🔗 | Government API Integrations | Pulls verified vaccination schedules and outbreak alerts. | | 🧠 | Safety Guardrails | Uses sanitized, ethics-aligned responses with moderation filters. | | 🖼️ | Media & Education Hub | Hosts infographics, field guides, and community outreach assets. | | 📊 | Insights & Reporting | Tracks awareness metrics and user engagement for impact evaluation. |
+Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban communities. It delivers **safe**, **empathetic**, and **multilingual** guidance on preventive healthcare, emerging outbreaks, vaccination schedules, and symptom education. The system integrates with government health databases to provide actionable alerts and boosts health awareness through conversational outreach channels like WhatsApp and SMS.
 
-🛠️ Tech Stack
-💻 Frontend
-React 18 with TypeScript
-Vite build tooling
-Tailwind CSS, shadcn/ui, Radix UI
-React Router DOM, React Hook Form + Zod
-Framer Motion animations
-TanStack Query for data fetching
-Recharts for analytics dashboards
-React Markdown with remark-gfm
-🧠 AI & Intelligence Layer
-Google Gemini 2.5 Flash (Lite + Full variants)
-AI Router for intent classification and model selection
-Health Intake, Text Analysis, and Search services
-Safety prompts, content sanitization filters, memory manager
-☁️ Backend & Infrastructure
-Firebase Authentication, Firestore, Cloud Storage
-Express development bot, Firebase Hosting
-Google Custom Search API integration
-Text-to-Speech services for voice responses
-🧰 Tooling & DevOps
-TypeScript 5.8
-ESLint 9
-npm / bun workflows
-Smoke tests via tsx
-Detailed architecture docs in design.md
-🏗️ Architecture Snapshot
-System interactions flow from conversational channels through the AI router, which orchestrates model usage, intake workflows, and safety guardrails before responding to the user. Memory and profile stores maintain context while integrations fetch trusted health information.
+---
 
+## 🤔 Why Ojas / MedTrack?
+
+1. **🌍 Community-Centric** – Tailored for India’s diverse linguistic and cultural landscape.
+2. **⚕️ Safety-First Guidance** – Focuses on awareness and triage, nudging users toward professional care.
+3. **📡 Real-Time Intelligence** – Syncs with verified health datasets for outbreak alerts and vaccination drives.
+4. **📈 Proven Impact Goal** – Targets 80% answer accuracy and a 20% awareness lift in served communities.
+
+---
+
+## ✨ Key Features
+
+| Icon | Capability | Description |
+|------|------------|-------------|
+| 🗣️ | **Multilingual Conversations** | Supports major Indian languages with empathetic, culturally aware responses. |
+| 🩺 | **Preventive Health Guidance** | Educates on disease symptoms, vaccines, lifestyle, and early interventions. |
+| 🧭 | **Smart Intake & Triage** | Progressive question flow to assess severity and recommend next steps. |
+| 🚨 | **Emergency Protocols** | Detects high-risk symptoms and suggests nearby emergency services. |
+| 🔗 | **Government API Integrations** | Pulls vaccination schedules, epidemic alerts, and public health advisories. |
+| 🧠 | **Safety Guardrails** | Enforces medical ethics, sanitizes responses, and maintains privacy compliance. |
+| 🖼️ | **Media & Education Hub** | Delivers infographics, reminders, and community health resources. |
+| 📊 | **Insights & Reporting** | Tracks awareness metrics, usage patterns, and community impact goals. |
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Frontend
+- React 18 + TypeScript
+- Vite build tooling
+- Tailwind CSS + shadcn/ui + Radix UI
+- React Router DOM, React Hook Form + Zod
+- Framer Motion animations
+- TanStack Query for data fetching
+- Recharts for analytics dashboards
+- Remark/React Markdown for rich text
+
+### 🧠 AI & Intelligence Layer
+- Google Gemini 2.5 Flash (Lite + Full)
+- AI Router for query classification and routing
+- Health Intake, Text Analysis, Search integration services
+- Safety prompts, content sanitization, and memory management
+
+### ☁️ Backend & Infrastructure
+- Firebase Authentication, Firestore, Cloud Storage
+- Express dev bot & Firebase Hosting
+- Google Custom Search API
+- Text-to-Speech service for voice responses
+
+### 🧰 Tooling & DevOps
+- TypeScript 5.8
+- ESLint 9
+- npm / bun scripts
+- Smoke tests via tsx
+- CI-ready architecture diagrams and documentation
+
+---
+
+## 🏗️ Architecture Snapshot
+
+```mermaid
 flowchart TD
-    A[User Channels: WhatsApp / SMS / Web] --> B[AIRouter]
+    A[User Channels: WhatsApp/SMS/Web] --> B[AIRouter]
     B --> C{Health Query?}
     C -- Yes --> D[Health Intake Engine]
     D --> E[Gemini Full Model + Web Search]
@@ -60,40 +87,40 @@ flowchart TD
     E --> K[Government Health APIs]
     G --> L[Awareness Metrics Dashboard]
 🔍 Core Components
-AI Router – Classifies intent, manages follow-ups, selects AI models.
-Health Intake Engine – Generates structured symptom questionnaires.
-Safety & Compliance Layer – Enforces medical guardrails and privacy controls.
-Memory Store – Syncs user context across sessions (local + cloud).
-Government Integrations – Retrieves outbreak alerts, vaccination drives, and facility directories.
+AIRouter: Classifies intent, chooses models, orchestrates follow-ups.
+Health Intake Engine: Generates progressive symptom questions.
+Safety & Compliance Module: Applies medical guardrails and sanitizes content.
+Memory Store: Syncs contextual history across local and cloud storage.
+Government API Integrations: Fetches outbreak alerts, vaccination data, and facility directories.
 👥 Team
-🧭 Product Lead – Vision, community partnerships, outcome metrics.
-🧠 AI/ML Lead – Model orchestration, safety workflows, search integration.
-🎨 Frontend Lead – Multichannel UI, multilingual support, accessibility.
-🛡️ Backend & Integrations Engineer – Firebase services, Express API bridges, deployment.
-🔐 Compliance Analyst – Medical accuracy checks, HIPAA-aligned data governance.
-📢 Outreach & UX Research – Field testing, adoption programs, behavior-change insights.
-(Update with actual names and contacts as needed.)
+🧭 Product Lead – Vision, metrics, community partnerships
+🧠 AI/ML Lead – Model orchestration, safety, and routing logic
+🎨 Frontend Lead – Multilingual UI, accessibility, and channel support
+🛡️ Backend & Integrations Engineer – Firebase, Express, API integrations
+🔐 Compliance Analyst – Medical accuracy, privacy (HIPAA-aligned) governance
+📢 Outreach & UX Research – Field feedback, adoption programs, behavior change tracking
+(Add actual names and contact details as appropriate.)
 
 🖼️ Gallery
-| Preview | Description | |---------|-------------| |Landing| Landing page highlighting value proposition and key CTAs. | |Chat Flow| Multilingual chat conversation showing symptom intake. | |Emergency| Emergency protocol screen with nearby facility guidance. | |Dashboard| Awareness metrics and community impact dashboard. |
+| Preview | Description | |---------|-------------| |Landing| Landing page highlighting key benefits and call-to-action. | |ChatUI| Multilingual chat interface with symptom intake prompts. | |Emergency| Emergency workflow showcasing nearby facilities and contacts. | |Dashboard| Awareness metrics and community impact dashboard. |
 
-(Replace placeholders with real assets located in docs/gallery/.)
+(Replace placeholders with actual assets stored under docs/gallery/.)
 
 🔗 Useful Links
-🌐 Live Demo / Deployment: TBD – add cloud URL or WhatsApp link
-🎥 Product Walkthrough Video: TBD – link to recorded demo
-📄 Architecture & Workflow: design.md
-📋 Project Tracker: TBD – Notion / Jira / Trello board
+🌐 Live Demo / Deployment: TBD – add cloud URL or WhatsApp entry point
+🎥 Product Walkthrough: TBD – link to demo video
+📄 Architecture & Workflows: design.md
+📋 Project Tracker: TBD – Notion/Jira/Trello board
 📣 Community Awareness Kit: TBD – content repository link
 🎯 Expected Outcomes
-Achieve 80% accuracy on health queries through Gemini models and curated datasets.
-Deliver 20% awareness uplift in target communities via outreach campaigns.
-Provide real-time outbreak alerts and vaccination schedule reminders backed by government data.
-Uphold privacy and safety compliance with stringent guardrails and audit trails.
+Reach 80% accuracy on health queries by leveraging Gemini models + curated datasets.
+Deliver 20% uplift in preventive health awareness across target communities.
+Provide real-time outbreak alerts via government API integrations.
+Maintain privacy and safety compliance with robust guardrails and HIPAA-aligned practices.
 📡 Future Enhancements
-Expand voice and dialect-specific support for low-literacy users.
-Automate vaccination reminders and appointment booking workflows.
-Add offline-first tooling for areas with limited connectivity.
-Grow specialist referral networks and continuous medical content updates.
+Expand IVR/voice and dialect-specific support.
+Automate vaccination reminders and appointment scheduling.
+Integrate offline-first data capture for low-connectivity regions.
+Add specialist referral network and continuous medical content updates.
 
 
