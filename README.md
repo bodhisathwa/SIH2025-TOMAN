@@ -1,8 +1,8 @@
-Ojas Health Aid (MedTrack)
 # 🌿 Ojas Health Aid (aka MedTrack on WhatsApp)
 > **AI-driven multilingual public health companion for preventive care, disease awareness, and vaccination guidance.**
 
-![Ojas Hero Banner](docs/gallery/hero-banner.png)
+[WhatsApp Image 2025-09-27 at 20 13 24_408485b0](https://github.com/user-attachments/assets/78e4ee74-2b98-41cd-a3a5-4b5dd78e05c7)
+(docs/gallery/hero-banner.png)
 
 ---
 
@@ -14,7 +14,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## 🤔 Why Ojas / MedTrack?
 
-1. **🌍 Community-Centric** – Tailored for India’s diverse linguistic and cultural landscape.
+1. **🌍 Community-Centric** – Tailored for India's diverse linguistic and cultural landscape.
 2. **⚕️ Safety-First Guidance** – Focuses on awareness and triage, nudging users toward professional care.
 3. **📡 Real-Time Intelligence** – Syncs with verified health datasets for outbreak alerts and vaccination drives.
 4. **📈 Proven Impact Goal** – Targets 80% answer accuracy and a 20% awareness lift in served communities.
@@ -23,7 +23,7 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 
 ## ✨ Key Features
 
-| Icon | Capability | Description |
+|      | Capability | Description |
 |------|------------|-------------|
 | 🗣️ | **Multilingual Conversations** | Supports major Indian languages with empathetic, culturally aware responses. |
 | 🩺 | **Preventive Health Guidance** | Educates on disease symptoms, vaccines, lifestyle, and early interventions. |
@@ -75,9 +75,9 @@ Ojas Health Aid is an AI-powered chatbot designed for rural and semi-urban commu
 flowchart TD
     A[User Channels: WhatsApp/SMS/Web] --> B[AIRouter]
     B --> C{Health Query?}
-    C -- Yes --> D[Health Intake Engine]
+    C -->|Yes| D[Health Intake Engine]
     D --> E[Gemini Full Model + Web Search]
-    C -- No --> F[Gemini Lite Model]
+    C -->|No| F[Gemini Lite Model]
     E --> G[Safety & Compliance Layer]
     F --> G
     G --> H[Response Formatter + Sources]
@@ -86,41 +86,68 @@ flowchart TD
     J --> B
     E --> K[Government Health APIs]
     G --> L[Awareness Metrics Dashboard]
-🔍 Core Components
-AIRouter: Classifies intent, chooses models, orchestrates follow-ups.
-Health Intake Engine: Generates progressive symptom questions.
-Safety & Compliance Module: Applies medical guardrails and sanitizes content.
-Memory Store: Syncs contextual history across local and cloud storage.
-Government API Integrations: Fetches outbreak alerts, vaccination data, and facility directories.
-👥 Team
-🧭 Product Lead – Vision, metrics, community partnerships
-🧠 AI/ML Lead – Model orchestration, safety, and routing logic
-🎨 Frontend Lead – Multilingual UI, accessibility, and channel support
-🛡️ Backend & Integrations Engineer – Firebase, Express, API integrations
-🔐 Compliance Analyst – Medical accuracy, privacy (HIPAA-aligned) governance
-📢 Outreach & UX Research – Field feedback, adoption programs, behavior change tracking
-(Add actual names and contact details as appropriate.)
+```
 
-🖼️ Gallery
-| Preview | Description | |---------|-------------| |Landing| Landing page highlighting key benefits and call-to-action. | |ChatUI| Multilingual chat interface with symptom intake prompts. | |Emergency| Emergency workflow showcasing nearby facilities and contacts. | |Dashboard| Awareness metrics and community impact dashboard. |
+---
 
-(Replace placeholders with actual assets stored under docs/gallery/.)
+## 🔍 Core Components
 
-🔗 Useful Links
-🌐 Live Demo / Deployment: TBD – add cloud URL or WhatsApp entry point
-🎥 Product Walkthrough: TBD – link to demo video
-📄 Architecture & Workflows: design.md
-📋 Project Tracker: TBD – Notion/Jira/Trello board
-📣 Community Awareness Kit: TBD – content repository link
-🎯 Expected Outcomes
-Reach 80% accuracy on health queries by leveraging Gemini models + curated datasets.
-Deliver 20% uplift in preventive health awareness across target communities.
-Provide real-time outbreak alerts via government API integrations.
-Maintain privacy and safety compliance with robust guardrails and HIPAA-aligned practices.
-📡 Future Enhancements
-Expand IVR/voice and dialect-specific support.
-Automate vaccination reminders and appointment scheduling.
-Integrate offline-first data capture for low-connectivity regions.
-Add specialist referral network and continuous medical content updates.
+- **AIRouter**: Classifies intent, chooses models, orchestrates follow-ups.
+- **Health Intake Engine**: Generates progressive symptom questions.
+- **Safety & Compliance Module**: Applies medical guardrails and sanitizes content.
+- **Memory Store**: Syncs contextual history across local and cloud storage.
+- **Government API Integrations**: Fetches outbreak alerts, vaccination data, and facility directories.
 
+---
 
+## 👥 Team
+
+- 🧭 **Product Lead** – Vision, metrics, community partnerships
+- 🧠 **AI/ML Lead** – Model orchestration, safety, and routing logic
+- 🎨 **Frontend Lead** – Multilingual UI, accessibility, and channel support
+- 🛡️ **Backend & Integrations Engineer** – Firebase, Express, API integrations
+- 🔐 **Compliance Analyst** – Medical accuracy, privacy (HIPAA-aligned) governance
+- 📢 **Outreach & UX Research** – Field feedback, adoption programs, behavior change tracking
+
+*(Add actual names and contact details as appropriate.)*
+
+---
+
+## 🖼️ Gallery
+
+| Preview | Description |
+|---------|-------------|
+| Landing | Landing page highlighting key benefits and call-to-action. |
+| ChatUI | Multilingual chat interface with symptom intake prompts. |
+| Emergency | Emergency workflow showcasing nearby facilities and contacts. |
+| Dashboard | Awareness metrics and community impact dashboard. |
+
+*(Replace placeholders with actual assets stored under docs/gallery/.)*
+
+---
+
+## 🔗 Useful Links
+
+- 🌐 **Live Demo / Deployment**: TBD – add cloud URL or WhatsApp entry point
+- 🎥 **Product Walkthrough**: TBD – link to demo video
+- 📄 **Architecture & Workflows**: design.md
+- 📋 **Project Tracker**: TBD – Notion/Jira/Trello board
+- 📣 **Community Awareness Kit**: TBD – content repository link
+
+---
+
+## 🎯 Expected Outcomes
+
+- Reach **80% accuracy** on health queries by leveraging Gemini models + curated datasets.
+- Deliver **20% uplift** in preventive health awareness across target communities.
+- Provide **real-time outbreak alerts** via government API integrations.
+- Maintain **privacy and safety compliance** with robust guardrails and HIPAA-aligned practices.
+
+---
+
+## 📡 Future Enhancements
+
+- Expand IVR/voice and dialect-specific support.
+- Automate vaccination reminders and appointment scheduling.
+- Integrate offline-first data capture for low-connectivity regions.
+- Add specialist referral network and continuous medical content updates.
